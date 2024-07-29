@@ -2,6 +2,6 @@
 let uppercase = document.querySelector("#fname")
 
 uppercase.addEventListener("blur", (event) => {
-	   event.value = value.upperCase()
+	   event.target.value = event.target.value.toUpperCase()
 })
  
